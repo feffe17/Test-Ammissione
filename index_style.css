@@ -1,0 +1,102 @@
+body{
+    background-image: url(../esercizio_ammissione/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*__________ID__________*/
+
+#titolone{
+    color: lime;
+    font-size: 45px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#medio{
+    background-color: rgb(255, 174, 0);
+    height: 30px;
+    width: 37%;
+    border-radius: 5px;
+}
+
+#alto{
+    background-color: green;
+    height: 30px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+#basso{
+    background-color:darkred;
+    height: 30px;
+    width: 15%;
+    border-radius: 5px;
+}
+
+/*________CLASS_________*/
+
+.container{
+    width: 1200px;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    border-radius: 25px;
+}
+
+.container > header{
+    text-align: center;  
+}
+
+
+header > img{
+    margin-top: 15px;
+}
+
+.container > nav{
+    width: 80%;
+    height: 40px;
+    background-color: lime;
+    margin: auto;
+    text-align: center;
+}
+
+.pulsante{
+    display: inline-block;
+    margin-top:10px;
+    margin-right: 4px;
+}
+
+.container > main{
+    width: 80%;
+    margin: auto;
+}
+
+.monopattini{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.paragrafi{
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.spacebar{
+    border-color: lime;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.container > footer{
+    text-align: center;
+}
+
+h3 > i{
+    color: lime;
+    font-size: 30px;
+}
